@@ -36,9 +36,9 @@ const App = () => {
     <SafeAreaView style={styles.container}>
       <View style={styles.container}>
         <Text style={styles.titleText}>
-          TechHelp
+          Tech4All
         </Text>
-        <Text style={styles.titleTextsmall}>{isEnabled ? "Click the Button that best describes what you need help with:" : "Haga clic en el botón que mejor describa con qué necesita ayuda:"}</Text>
+        <Text style={styles.titleTextsmall}>{isEnabled ? "Click the button that best describes what you need help with:" : "Haga clic en el botón que mejor describa con qué necesita ayuda:"}</Text>
         <View>
                 <View>
           <TouchableOpacity
